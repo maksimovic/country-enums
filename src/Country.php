@@ -810,6 +810,9 @@ enum Country: string
         };
     }
 
+	/**
+	 * Get the human-readable demonym of this country
+	 */
 	public function demonym(): string
 	{
 		return match($this) {
