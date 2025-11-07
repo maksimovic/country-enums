@@ -22,6 +22,12 @@ it('will produce the correct labels', function () {
     expect(Country::US->label())->toBe('United States');
 });
 
+it('will produce the correct demonyms', function () {
+	expect(Country::AU->demonym())->toBe('Australian');
+	expect(Country::NZ->demonym())->toBe('New Zealand');
+	expect(Country::US->demonym())->toBe('American');
+});
+
 it('will produce the correct codes', function () {
     expect(Country::AU->code())->toBe('australia');
     expect(Country::NZ->code())->toBe('new_zealand');
