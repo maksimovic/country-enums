@@ -1,7 +1,6 @@
 # PHP Country (and Region) Enums
 
-![Static Analysis](https://github.com/bradietilley/country-enums/actions/workflows/static.yml/badge.svg)
-![Tests](https://github.com/bradietilley/country-enums/actions/workflows/tests.yml/badge.svg)
+[![codecov](https://codecov.io/github/maksimovic/country-enums/branch/master/graph/badge.svg?token=AiJvrvZbg3)](https://codecov.io/github/maksimovic/country-enums)
 
 
 All (or at least most) countries and their regions formatted as PHP enums, framework agnostic (of course).
