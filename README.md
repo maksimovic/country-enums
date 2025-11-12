@@ -2,6 +2,7 @@
 
 [![codecov](https://codecov.io/github/maksimovic/country-enums/branch/master/graph/badge.svg?token=AiJvrvZbg3)](https://codecov.io/github/maksimovic/country-enums)
 
+Forked from https://github.com/bradietilley/country-enums to add more features.
 
 All (or at least most) countries and their regions formatted as PHP enums, framework agnostic (of course).
 
@@ -19,7 +20,7 @@ PHP 8.1+
 Install it via composer:
 
 ```
-composer require bradietilley/country-enums
+composer require maksimovic/country-enums
 ```
 
 
