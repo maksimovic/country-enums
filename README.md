@@ -40,6 +40,7 @@ $country = Country::from('US');
 | -|-|-|-|
 | $country->value | Get the two-letter code | "US" | string |
 | $country->label() | Get the human-readable label | "United States" | string |
+| $country->demonym() | Get the demonym for the country | "American" | string |
 | $country->code() | Get the English snake_case code name | "united_states" | string |
 | $country->regions() | Get all regions in the country | [ Region::US_AL, ..., Region::US_WY ] | array&lt;Region&gt; |
 | $country->collectRegions() | Get all regions in the country as a collection (requires Laravel if used) | Collection::make([ Region::US_AL, ..., Region::US_WY ]) | \Illuminate\Support\Collection&lt;Region&gt; |
